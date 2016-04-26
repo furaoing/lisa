@@ -1,0 +1,11 @@
+
+Directory Structure
+---------------------------------------------------------------------------------------------
+
+XXX-Project-Workspace
+    -- xxx_project_package (Optional, commited code + tmp code + unfinished code)
+   
+    -- xxx_project_git_repository (Git Repository Described in 项目版本库 - 推荐目录结构.txt)
+
+    -- Data Rar / Tmp Files / Tmp Folders / Docs .... etc  
+

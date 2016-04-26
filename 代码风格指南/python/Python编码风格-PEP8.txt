@@ -1,0 +1,25 @@
+见本文件夹内的PEP 0008 -- Style Guide for Python Code.html
+
+
+Highlights:
+    1. 所有源文件必须有编码声明（文件第一行）：# -*- coding: utf-8 -*-
+    2. 所有源文件必须实际以utf-8编码
+    3. 禁止模块交叉引用
+    4. 模块import方式选择：强烈建议全部使用绝对引用，以避免引用bug和python2/3兼容性bug
+    例子：
+          from my_project_package import module A
+          from my_project_package.module A import function A
+    5. 类名命名风格：双驼峰式命名法（MyClass)
+    6. 函数/方法命名风格：my_function
+    7. 常量只能含有大写字母： PI = 3.14
+    8. 如果采用相对引用，禁止使用含有.号的引用(from .module import和 from . import)，
+       禁止引用父级目录
+
+Python编码建议：
+    1. 字符串拼接： 
+       尽量使用%s和字符串变量/常量来拼接字符串
+          my_var = "I am the str to be inserted"
+          my_str = "This is a string concate: %s" % my_var
+       尽量避免下列拼接方法：
+          my_var = "I am the str to be inserted"
+          my_str = "abc" + "cde" + my_var + "hef" + my_var + "dddefd"

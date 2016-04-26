@@ -1,0 +1,44 @@
+
+Directory Structure
+---------------------------------------------------------------------------------------------
+
+Git Repository   (A folder that contains .git folder)
+  |---- Python Package  
+  |--------- Data Folder
+  |--------- Documentatation Folder
+  |--------- Package Configuration File
+  |--------- Python Package Initialization Script
+  |--------- Module A
+  |              |-- Module A Initialization Script
+  |              |-- Module script 1
+  |              |-- Module script 2
+  |--------- Module B
+  |              |-- Module B Initialization Script
+  |              |-- Module script 1
+  |              |-- Module script 2
+  |--------- Test Module (Containing Standalone Test Script)
+  |-- README (Documentating the usage and directory structure of this package, must have)
+  |-- CHANGELOG (Documentating the version number:summary of changes of this package, if any)
+  |-- setup.py (Optional)
+  |-- LICENSE (Optional)
+
+               
+               
+               
+Example
+---------------------------------------------------------------------------------------------
+
+InterestGraph_git
+    |-- InterestGraph 
+    |      |-- Data
+    |      |-- docs
+    |      |-- config.json
+    |      |-- __init__.py
+    |      |-- Compute_IG
+    |             |-- __init__.py
+    |             |-- compute_ig_a.py
+    |             |-- compute_ig_b.py
+    |-- Test
+
+          
+          

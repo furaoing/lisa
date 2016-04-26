@@ -1,0 +1,5 @@
+1. json serilization/deserilization 
+        rapidJSON
+
+2. Socket Server
+        boost/asio

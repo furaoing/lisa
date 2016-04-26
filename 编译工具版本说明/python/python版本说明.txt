@@ -1,0 +1,22 @@
+Python解释器类型：
+   CPython
+
+Python版本号采用：
+   python3.4
+   python2.7
+   
+   
+Python发行版：
+   python3.4 - anaconda3  (https://www.continuum.io/downloads)
+   python2.7 - anaconda2  (https://www.continuum.io/downloads)
+   
+   
+Python公共库：
+   https://github.com/furaoing/roy_py
+   
+   
+Python第三方库：
+   requests
+   pandas
+   tornado
+   numpy

@@ -1,0 +1,17 @@
+﻿1. Python MySQL Driver 
+        第一选择: sqlalchemy   (ORM)
+
+2. Python机器学习库
+        第一选择：scikit-learn
+        第二选择：经典算法的python/C++独立实现(如libSVM)
+
+3. Python版本：
+        研发环境：python3.4/3.5
+        生产环境：python3.5
+
+4. Python数据处理库：
+        Pandas 0.18.0
+
+
+Note: 
+    MySQL Driver和机器学习库如果在使用过程中遇到问题，请将具体问题反馈给算法部Roy
